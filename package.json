@@ -1,0 +1,45 @@
+{
+  "name": "@lxgicstudios/ai-commit",
+  "version": "1.0.0",
+  "description": "Generate conventional commit messages from staged git changes. Detects scope from file paths, supports feat/fix/chore/refactor/docs types.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-commit": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "conventional-commits",
+    "commit-message",
+    "cli",
+    "developer-tools",
+    "automation",
+    "git-hooks",
+    "changelog",
+    "semantic-versioning",
+    "typescript",
+    "npm",
+    "productivity"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-commit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
